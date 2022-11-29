@@ -12,5 +12,4 @@ const withNextra = nextra({
   },
 });
 
-//module.exports = withNextra();
 export default withNextra();
