@@ -1,5 +1,5 @@
 import nextra from 'nextra';
-import remarkGfm from 'remark-gfm';
+//import remarkGfm from 'remark-gfm';
 
 //import remarkMath from 'remark-math';
 //import rehypeKatex from 'rehype-katex';
