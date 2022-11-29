@@ -3,7 +3,7 @@ import remarkGfm from 'remark-gfm';
 
 //import remarkMath from 'remark-math';
 //import rehypeKatex from 'rehype-katex';
-//const remarkDefinitionList = require('remark-deflist');
+const remarkDefinitionList = require('remark-definition-list');
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
