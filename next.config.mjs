@@ -1,8 +1,4 @@
 import nextra from 'nextra';
-//import remarkGfm from 'remark-gfm';
-
-//import remarkMath from 'remark-math';
-//import rehypeKatex from 'rehype-katex';
 import remarkDefinitionList from 'remark-definition-list';
 
 const withNextra = nextra({
@@ -11,8 +7,8 @@ const withNextra = nextra({
   unstable_staticImage: true,
   // ...
   mdxOptions: {
-    remarkPlugins: [ /*remarkMath,*/ remarkDefinitionList ],
-    rehypePlugins: [ /*rehypeKatex*/ ],   
+    remarkPlugins: [ remarkDefinitionList ],
+    rehypePlugins: [ ],   
   },
 });
 
