@@ -11,7 +11,7 @@ const withNextra = nextra({
   unstable_staticImage: true,
   // ...
   mdxOptions: {
-    remarkPlugins: [ /*remarkMath,*/ remarkGfm ],
+    remarkPlugins: [ /*remarkMath,*/ remarkDefinitionList ],
     rehypePlugins: [ /*rehypeKatex*/ ],   
   },
 });
